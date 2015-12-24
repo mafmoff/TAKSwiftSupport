@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		772F95801C2BD91F0014A9C9 /* Array+RandomElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772F957F1C2BD91F0014A9C9 /* Array+RandomElement.swift */; };
 		92B07807695BA689C1F2C71B /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B85FAB8E7C99013BFC698D /* Pods.framework */; };
 		F43FBD471C1D0DEB0031825F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43FBD461C1D0DEB0031825F /* CoreLocation.framework */; };
 		F43FBD491C1D0DEF0031825F /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43FBD481C1D0DEF0031825F /* CoreMotion.framework */; };
@@ -45,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		3A7F27CC610C7CD6398158BE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		772F957F1C2BD91F0014A9C9 /* Array+RandomElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Array+RandomElement.swift"; path = "../Core/Extension/Array+RandomElement.swift"; sourceTree = "<group>"; };
 		7E086E1C9FB8A68F05184D16 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D3B85FAB8E7C99013BFC698D /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F43FBD461C1D0DEB0031825F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -250,6 +252,7 @@
 				F461B43D1C27896E00DB4155 /* UIImage+Filter.swift */,
 				F461B43E1C27896E00DB4155 /* UILabel+Attributes.swift */,
 				F461B43F1C27896E00DB4155 /* UIView+Frame.swift */,
+				772F957F1C2BD91F0014A9C9 /* Array+RandomElement.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -428,6 +431,7 @@
 				F461B4571C27896E00DB4155 /* UIColor+HexValue.swift in Sources */,
 				F461B4501C27896E00DB4155 /* ImageUtil.swift in Sources */,
 				F461B4471C27896E00DB4155 /* BaseViewController.swift in Sources */,
+				772F95801C2BD91F0014A9C9 /* Array+RandomElement.swift in Sources */,
 				F461B4491C27896E00DB4155 /* BaseTableView.swift in Sources */,
 				F461B4521C27896E00DB4155 /* LocationManager.swift in Sources */,
 				F461B4451C27896E00DB4155 /* RequestBase.swift in Sources */,
