@@ -17,7 +17,7 @@ public class AppInfoUtil: NSObject {
     - returns: 生成したクラス
     */
     public class func classFromString(
-        className: String) -> AnyClass! {
+        className: String) -> AnyClass? {
         let appName = NSBundle.mainBundle().objectForInfoDictionaryKey("CFBundleName") as! String
             
         return classFromStringWithModule(appName, className: className)
@@ -33,8 +33,21 @@ public class AppInfoUtil: NSObject {
     */
     public class func classFromStringWithModule(
         moduleName: String,
-        className: String) -> AnyClass! {
+        className: String) -> AnyClass? {
             return NSClassFromString(moduleName + "." + className)
     }
     
+    /**
+     クラスからクラス名の文字列を取得
+     
+     - parameter object: 対象クラス
+     
+     - returns: クラス名
+     */
+    public class func classNameString(object: AnyClass) -> String? {
+        if let className = NSStringFromClass(object).componentsSeparatedByString(".").last {
+            return className
+        }
+        return nil
+    }
 }
