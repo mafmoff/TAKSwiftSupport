@@ -1,5 +1,5 @@
 //
-//  Array+randomItem.swift
+//  Array+RandomPick.swift
 //  TAKSwiftSupport
 //
 //  Created by yamamotosaika on 2015/12/24.
@@ -17,7 +17,7 @@ public extension Array {
      
      - returns: 配列
      */
-    func randomItem(itemNum: Int) -> [Any] {
+    func randomPick(itemNum itemNum: Int) -> [Any] {
         if count <= 0 {
             return []
         }
